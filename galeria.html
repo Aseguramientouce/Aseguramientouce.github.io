@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galería | Facultad de Cultura Física - UCE</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-track"></div>
+  <div class="loader-text">Cargando…</div>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <div class="logo-slot"><img src="images/images.jpg" alt="Logo Facultad de Cultura Física"></div>
+      <div class="brand-text">
+        <strong>Facultad de Cultura Física</strong>
+        <span>Aseguramiento de la Calidad · UCE</span>
+      </div>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Inicio</a>
+      <a href="mision-vision.html">Misión y Visión</a>
+      <a href="departamento.html">Departamento</a>
+      <a href="galeria.html" class="active">Galería</a>
+      <a href="seguimiento.html">Seguimiento al graduado</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== BANNER ===== -->
+<section class="page-banner" style="background-image:linear-gradient(180deg, rgba(10,42,78,.62) 0%, rgba(10,42,78,.94) 100%), url('MISION Y VISION/galaeria.jpg');">
+  <div class="container">
+    <span class="eyebrow">Material visual</span>
+    <h1>Galería</h1>
+    <p>Trípticos, carteles, eventos, capacitaciones y todo el material generado por el Departamento de Aseguramiento de la Calidad.</p>
+    <div class="breadcrumb"><a href="index.html">Inicio</a><span>/</span>Galería</div>
+  </div>
+</section>
+
+<div class="lane-divider"></div>
+
+<!-- ===== GALERÍA ===== -->
+<section class="gallery-section">
+  <div class="container">
+    <span class="eyebrow">Explora</span>
+    <h2 class="section-title">Nuestro material</h2>
+    <p class="section-lead">Filtra por categoría para encontrar el contenido que buscas. Haz clic en cualquier imagen para verla en grande.</p>
+
+    <div class="gallery-filters">
+      <button class="filter-btn active" data-filter="todos">Todos</button>
+      <button class="filter-btn" data-filter="tripticos">Trípticos</button>
+      <button class="filter-btn" data-filter="carteles">Carteles</button>
+      <button class="filter-btn" data-filter="eventos">Eventos</button>
+      <button class="filter-btn" data-filter="charlas">Charlas</button>
+      <button class="filter-btn" data-filter="capacitaciones">Capacitaciones</button>
+      <button class="filter-btn" data-filter="fotografias">Fotografías</button>
+      <button class="filter-btn" data-filter="infografias">Infografías</button>
+      <button class="filter-btn" data-filter="acreditaciones">Acreditaciones</button>
+      <button class="filter-btn" data-filter="documentacion">Documentación</button>
+    </div>
+
+    <div class="gallery-grid">
+
+      <!-- ===== CARTELES (material real del Departamento) ===== -->
+      <div class="gallery-item reveal" data-category="carteles">
+        <!-- IMAGEN [GALERIA-01] — Cartel Abierto - Aseguramiento de la Calidad, Facultad de Cultura Física. Guarda tu imagen descargada como "galeria-01.jpg" dentro de la carpeta images/ -->
+        <img src="images/galeria-01.jpg" alt="Cartel Abierto - Aseguramiento de la Calidad, Facultad de Cultura Física">
+        <div class="gallery-top-label"><i class="fa-solid fa-image"></i>Cartel</div>
+        <div class="gallery-caption"><span>Cartel institucional</span><strong>¡Aseguramiento de la Calidad!</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-1" data-category="carteles">
+        <!-- IMAGEN [GALERIA-02] — Cartel Dirección de Aseguramiento de la Calidad DAC. Guarda tu imagen descargada como "galeria-02.jpg" dentro de la carpeta images/ -->
+        <img src="images/galeria-02.jpg" alt="Cartel Dirección de Aseguramiento de la Calidad DAC">
+        <div class="gallery-top-label"><i class="fa-solid fa-image"></i>Cartel</div>
+        <div class="gallery-caption"><span>Cartel institucional</span><strong>Dirección de Aseguramiento de la Calidad (DAC)</strong></div>
+      </div>
+
+      <!-- ===== TRÍPTICOS (material real de las carreras) ===== -->
+      <div class="gallery-item reveal reveal-delay-2" data-category="tripticos">
+        <!-- IMAGEN [GALERIA-03] — Tríptico Carrera de Pedagogía de la Actividad Física y Deporte - portada. Guarda tu imagen descargada como "galeria-03.jpg" dentro de la carpeta images/ -->
+        <img src="images/galeria-03.jpg" alt="Tríptico Carrera de Pedagogía de la Actividad Física y Deporte - portada">
+        <div class="gallery-top-label"><i class="fa-solid fa-file-lines"></i>Tríptico</div>
+        <div class="gallery-caption"><span>Carrera</span><strong>Pedagogía de la Actividad Física y Deporte</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-3" data-category="tripticos">
+        <!-- IMAGEN [GALERIA-04] — Tríptico Carrera de Pedagogía de la Actividad Física y Deporte - interior con misión, visión y perfiles. Guarda tu imagen descargada como "galeria-04.jpg" dentro de la carpeta images/ -->
+        <img src="images/galeria-04.jpg" alt="Tríptico Carrera de Pedagogía de la Actividad Física y Deporte - interior con misión, visión y perfiles">
+        <div class="gallery-top-label"><i class="fa-solid fa-file-lines"></i>Tríptico</div>
+        <div class="gallery-caption"><span>Carrera</span><strong>Misión, Visión y Perfiles - Pedagogía</strong></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="tripticos">
+        <!-- IMAGEN [GALERIA-05] — Tríptico Carrera de Entrenamiento Deportivo - portada. Guarda tu imagen descargada como "galeria-05.jpg" dentro de la carpeta images/ -->
+        <img src="images/galeria-05.jpg" alt="Tríptico Carrera de Entrenamiento Deportivo - portada">
+        <div class="gallery-top-label"><i class="fa-solid fa-file-lines"></i>Tríptico</div>
+        <div class="gallery-caption"><span>Carrera</span><strong>Entrenamiento Deportivo</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-1" data-category="tripticos">
+        <!-- IMAGEN [GALERIA-06] — Tríptico Carrera de Entrenamiento Deportivo - interior con misión, visión y requisitos. Guarda tu imagen descargada como "galeria-06.jpg" dentro de la carpeta images/ -->
+        <img src="images/galeria-06.jpg" alt="Tríptico Carrera de Entrenamiento Deportivo - interior con misión, visión y requisitos">
+        <div class="gallery-top-label"><i class="fa-solid fa-file-lines"></i>Tríptico</div>
+        <div class="gallery-caption"><span>Carrera</span><strong>Misión, Visión y Requisitos - Entrenamiento</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-2" data-category="eventos">
+        <!-- IMAGEN [GALERIA-07] — Evento institucional de la Facultad. Guarda tu imagen descargada como "galeria-07.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-07.jpg" src="images/imagen-pendiente.svg" alt="Evento institucional de la Facultad">
+        <div class="gallery-caption"><span>Evento</span><strong>Jornada de Autoevaluación 2025</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-3" data-category="charlas">
+        <!-- IMAGEN [GALERIA-08] — Charla sobre aseguramiento de la calidad. Guarda tu imagen descargada como "galeria-08.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-08.jpg" src="images/imagen-pendiente.svg" alt="Charla sobre aseguramiento de la calidad">
+        <div class="gallery-caption"><span>Charla</span><strong>Estándares de calidad educativa</strong></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="capacitaciones">
+        <!-- IMAGEN [GALERIA-09] — Capacitación docente. Guarda tu imagen descargada como "galeria-09.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-09.jpg" src="images/imagen-pendiente.svg" alt="Capacitación docente">
+        <div class="gallery-caption"><span>Capacitación</span><strong>Formación en evaluación docente</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-1" data-category="fotografias">
+        <!-- IMAGEN [GALERIA-10] — Fotografía de las instalaciones de la Facultad. Guarda tu imagen descargada como "galeria-10.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-10.jpg" src="images/imagen-pendiente.svg" alt="Fotografía de las instalaciones de la Facultad">
+        <div class="gallery-caption"><span>Fotografía</span><strong>Instalaciones de la Facultad</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-2" data-category="infografias">
+        <!-- IMAGEN [GALERIA-11] — Infografía de indicadores de calidad. Guarda tu imagen descargada como "galeria-11.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-11.jpg" src="images/imagen-pendiente.svg" alt="Infografía de indicadores de calidad">
+        <div class="gallery-caption"><span>Infografía</span><strong>Indicadores de calidad 2025</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-3" data-category="acreditaciones">
+        <!-- IMAGEN [GALERIA-12] — Proceso de acreditación de carreras. Guarda tu imagen descargada como "galeria-12.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-12.jpg" src="images/imagen-pendiente.svg" alt="Proceso de acreditación de carreras">
+        <div class="gallery-caption"><span>Acreditación</span><strong>Reconocimiento CACES</strong></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="documentacion">
+        <!-- IMAGEN [GALERIA-13] — Gestión documental del Departamento. Guarda tu imagen descargada como "galeria-13.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-13.jpg" src="images/imagen-pendiente.svg" alt="Gestión documental del Departamento">
+        <div class="gallery-caption"><span>Documentación</span><strong>Archivo de evidencias</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-1" data-category="tripticos">
+        <!-- IMAGEN [GALERIA-14] — Material informativo tríptico. Guarda tu imagen descargada como "galeria-14.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-14.jpg" src="images/imagen-pendiente.svg" alt="Material informativo tríptico">
+        <div class="gallery-caption"><span>Tríptico</span><strong>Planes de mejora continua</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-2" data-category="carteles">
+        <!-- IMAGEN [GALERIA-15] — Cartel de capacitación docente. Guarda tu imagen descargada como "galeria-15.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-15.jpg" src="images/imagen-pendiente.svg" alt="Cartel de capacitación docente">
+        <div class="gallery-caption"><span>Cartel</span><strong>Taller de Evaluación de Programas</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-3" data-category="eventos">
+        <!-- IMAGEN [GALERIA-16] — Evento de la comunidad universitaria. Guarda tu imagen descargada como "galeria-16.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-16.jpg" src="images/imagen-pendiente.svg" alt="Evento de la comunidad universitaria">
+        <div class="gallery-caption"><span>Evento</span><strong>Foro de Calidad Educativa</strong></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="charlas">
+        <!-- IMAGEN [GALERIA-17] — Charla con autoridades de la Facultad. Guarda tu imagen descargada como "galeria-17.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-17.jpg" src="images/imagen-pendiente.svg" alt="Charla con autoridades de la Facultad">
+        <div class="gallery-caption"><span>Charla</span><strong>Diálogo con autoridades académicas</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-1" data-category="capacitaciones">
+        <!-- IMAGEN [GALERIA-18] — Capacitación en gestión de calidad. Guarda tu imagen descargada como "galeria-18.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-18.jpg" src="images/imagen-pendiente.svg" alt="Capacitación en gestión de calidad">
+        <div class="gallery-caption"><span>Capacitación</span><strong>Gestión documental y procesos</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-2" data-category="fotografias">
+        <!-- IMAGEN [GALERIA-19] — Fotografía de actividades deportivas. Guarda tu imagen descargada como "galeria-19.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-19.jpg" src="images/imagen-pendiente.svg" alt="Fotografía de actividades deportivas">
+        <div class="gallery-caption"><span>Fotografía</span><strong>Actividades en el campus</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-3" data-category="infografias">
+        <!-- IMAGEN [GALERIA-20] — Infografía del proceso de aseguramiento de calidad. Guarda tu imagen descargada como "galeria-20.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-20.jpg" src="images/imagen-pendiente.svg" alt="Infografía del proceso de aseguramiento de calidad">
+        <div class="gallery-caption"><span>Infografía</span><strong>Ciclo de mejora continua</strong></div>
+      </div>
+
+      <div class="gallery-item reveal" data-category="acreditaciones">
+        <!-- IMAGEN [GALERIA-21] — Reconocimiento de acreditación institucional. Guarda tu imagen descargada como "galeria-21.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-21.jpg" src="images/imagen-pendiente.svg" alt="Reconocimiento de acreditación institucional">
+        <div class="gallery-caption"><span>Acreditación</span><strong>Certificación institucional</strong></div>
+      </div>
+
+      <div class="gallery-item reveal reveal-delay-1" data-category="documentacion">
+        <!-- IMAGEN [GALERIA-22] — Archivo de documentación institucional. Guarda tu imagen descargada como "galeria-22.jpg" dentro de la carpeta images/ -->
+        <img data-archivo-pendiente="images/galeria-22.jpg" src="images/imagen-pendiente.svg" alt="Archivo de documentación institucional">
+        <div class="gallery-caption"><span>Documentación</span><strong>Normativa y evidencias</strong></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+  <img id="lightboxImg" src="" alt="">
+  <button class="lightbox-nav next" id="lightboxNext" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+  <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <div class="logo-slot"><img src="images/images.jpg" alt="Logo Facultad de Cultura Física"></div>
+          <div class="brand-text">
+            <strong style="color:#fff;">Cultura Física</strong>
+            <span>Aseguramiento de la Calidad</span>
+          </div>
+        </a>
+        <p>Universidad Central del Ecuador · Comprometidos con la excelencia académica y la mejora continua de nuestros procesos.</p>
+        <div class="footer-social">
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://x.com" target="_blank" rel="noopener" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="mailto:aseguramientocalidad.fcf@uce.edu.ec" aria-label="Correo"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="visit-counter"><i class="fa-solid fa-eye"></i> Visitas: <strong id="visitCount">0</strong></div>
+      </div>
+
+      <div class="footer-col">
+        <h4>NAVEGACIÓN</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="mision-vision.html">Misión y Visión</a></li>
+          <li><a href="departamento.html">Departamento</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>ENLACES</h4>
+        <ul>
+          <li><a href="https://www.uce.edu.ec" target="_blank" rel="noopener">Página web UCE</a></li>
+          <li><a href="#">Portal Estudiantil</a></li>
+          <li><a href="#">Biblioteca Virtual</a></li>
+          <li><a href="#">Repositorio Digital</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>CONTACTO</h4>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-location-dot"></i> Ciudadela Universitaria, Quito - Ecuador</li>
+          <li><i class="fa-solid fa-phone"></i> (02) 252-9825</li>
+          <li><i class="fa-solid fa-envelope"></i> aseguramientocalidad.fcf@uce.edu.ec</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Facultad de Cultura Física — Universidad Central del Ecuador.</span>
+      <nav class="footer-bottom-nav">
+        <a href="index.html">Inicio</a>
+        <a href="mision-vision.html">Misión y Visión</a>
+        <a href="departamento.html">Departamento</a>
+        <a href="galeria.html">Galería</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="script.js"></script>
+</body>
+</html>

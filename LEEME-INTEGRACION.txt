@@ -1,0 +1,46 @@
+PORTAL UNIFICADO - FACULTAD DE CULTURA FÍSICA
+
+ABRIR Y EDITAR
+Descomprime la carpeta Aseguramientoalacalidad.
+Puedes abrir index.html directamente para revisar el portal.
+Para usar PHP: copia la carpeta en C:\xampp\htdocs, inicia Apache y abre
+http://localhost/Aseguramientoalacalidad/index.php
+No necesita instalar paquetes ni importar una base de datos para navegar.
+
+CAMBIOS
+- Nuevo enlace Seguimiento al graduado en el menú superior de las cuatro páginas.
+- seguimiento.html contiene todas las secciones de la página recuperada.
+- La sección adopta el azul #0A2A4E y el dorado #D4A017 del portal principal.
+- La cabecera principal permite regresar a Inicio, Misión y Visión, Departamento y Galería.
+- Se conservan carreras, posgrados, encuestas, resultados, imágenes y bolsa de empleo.
+- Menú principal adaptable y navegación interna del seguimiento por botones.
+
+ARCHIVOS PARA EDITAR
+index.html, mision-vision.html, departamento.html, galeria.html: páginas principales.
+seguimiento.html: todo el contenido del seguimiento al graduado.
+style.css: estilos del portal principal y del menú compartido.
+seguimiento/assets/css/estilos.css: estilos y colores del módulo de seguimiento.
+seguimiento/assets/js/funciones.js: navegación interna y encuesta original.
+seguimiento/assets/img/: imágenes del seguimiento.
+Los archivos .php cargan el HTML correspondiente; edita el HTML para cambiar contenido.
+
+LIMITACIONES HEREDADAS
+La encuesta recuperada usa window.storage y no guarda respuestas en XAMPP.
+El formulario de contacto principal es demostrativo y no envía mensajes.
+Se mantienen esas funciones originales; no se añadió un backend de encuestas.
+Seis imágenes del seguimiento y las fuentes/iconos externos requieren Internet.
+Se comprobó la presentación en navegador de escritorio, la navegación de carreras y la ampliación de imágenes.
+
+GALERÍA: el ZIP original no incluía las fotografías galeria-07.jpg a galeria-22.jpg.
+Se conserva cada espacio con una imagen que indica Fotografía pendiente.
+Para agregar una foto, cambia su src en galeria.html al archivo correspondiente.
+
+ACTUALIZACIÓN DE PRESENTACIÓN
+- El seguimiento utiliza el pie de página actual de index.html, fuera de su bloque de estilos.
+- Se corrigió una etiqueta sin cerrar que anidaba las secciones del seguimiento.
+- Autoridades presentadas con fotografía completa, nombre y cargo en tarjetas sobrias.
+- Imágenes informativas y gráficas ampliables al pulsarlas; cerrar con el botón o Escape.
+- Nuevos estilos: seguimiento/assets/css/presentacion.css.
+- Nueva interacción: seguimiento/assets/js/presentacion.js.
+- Se conservaron todos los archivos de imagen y las páginas principales que enviaste.
+- Se conservaron los nombres, cargos y años del archivo aportado; no se verificó su vigencia.
